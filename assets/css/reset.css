@@ -1,0 +1,38 @@
+/*Stylesheet Reset
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img, video, svg, iframe{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a, a:hover, a:active, a:focus, a:visited{
+    border: 0;
+    outline: 0;
+    text-decoration: initial;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/*Box Sizing Vendor Prefixes
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

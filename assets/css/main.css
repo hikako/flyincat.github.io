@@ -1,0 +1,318 @@
+body {
+	background-color: #fafafa;
+}
+
+pre.loadinghome {
+    text-align: center;
+    white-space: normal;
+    padding: 5%;
+}
+
+/*/-/-/Root/-/-/*/
+#welcomehell {
+	max-width: 848px;
+}
+.component-root {
+	border: 1px solid #e0e0e0;
+	background-color: #fff;
+	margin: 18px;
+}
+
+/*Branding*/
+#branding div {
+    padding-top: 30%;
+}
+
+/*NavigationHeader*/
+#navigation-header {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.75;
+}
+
+/*NavigationSide*/
+#navigation-side nav ul li a,
+/*NavigationHeader*/
+#navigation-header #header-toggle {
+    padding: 4px 12px;
+    padding: 0.250em 0.750em;
+}
+
+/*NavigationHeader*/
+#navigation-header nav ul li a {
+    padding: 4px 8px;
+}
+
+#navigation-header nav ul li:first-child a {
+    padding-left: 10px;
+}
+
+/*SectionHeader*/
+.section-header {
+    padding: 4px 8px;
+    padding: 0.250em 0.500em;
+}
+
+/*Prefix*/
+small.prefix {
+    border-radius: 2px;
+    padding: 0 3px;
+    padding: 0 0.250em;
+    margin: 1px 0;
+    margin: 0.083em 0;
+}
+
+/*ReleasesDBItem*/
+.ReleasesDB-item {
+    padding: 5px;
+    padding: 0.313em;
+    margin: -1px 0;
+}
+.ReleasesDB-item:first-child {
+    margin-top: 0;
+    border-top: 0;
+}
+.ReleasesDB-itemIcon,
+.ReleasesDB-itemMeta {
+    height: 68px;
+}
+.ReleasesDB-itemIcon img {
+    height: 100%;
+    width: auto;
+}
+.ReleasesDB-itemMeta {
+    margin-left: 68px;
+    padding-left: 8px;
+    padding-left: 0.500em;
+}
+.ReleasesDB-itemMeta h3 {
+    margin: 2px 0 2px;
+    margin: .1em 0 .1em;
+    padding: 0 0 2px;
+    padding: 0 0 .1em;
+}
+
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul {
+	margin: 0;
+}
+
+.ReleasesDB .ReleasesDB-pagination ul li {
+    background-color: initial;
+    padding: 0;
+    margin: 0;
+}
+
+.ReleasesDB .ReleasesDB-pagination ul li.disabled,
+.ReleasesDB .ReleasesDB-pagination ul li div,
+.ReleasesDB .ReleasesDB-pagination ul li a {
+    padding: 0 12px;
+    padding: 0 0.750em;
+    line-height: 30px;
+}
+
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader {
+    padding: 18px 18px 0;
+    padding: 1.125em 1.125em 0;
+}
+
+.ReleasesDB-pageHeader .ReleasesDB-HeaderIcon {
+    margin-bottom: 10px;
+    margin-bottom: 0.625em;
+}
+
+.ReleasesDB-pageHeader small.prefix {
+    margin-bottom: 8px;
+    margin-bottom: 0.667em;
+}
+
+.ReleasesDB-HeaderIcon {
+    width: 125px;
+}
+
+/*SubContentContainer*/
+.ReleasesDB-mainSubContentContainer,
+.ReleasesDB-downloadRedirect {
+    padding: 8px;
+    padding: 0.500em;
+    border-radius: 2px;
+}
+
+/*ReleaseseDB-pageMain*/
+.ReleasesDB-pageMain {
+    padding: 18px 0 18px;
+    padding: 1.125em 0 1.125em;
+    width: 90%;
+}
+
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta,
+/*PlaystoreVideo&Screenshots*/
+.ReleasesDB-mainSubContentContainerMedia {
+    margin-bottom: 4px;
+}
+
+.ReleasesDB-mainContentMeta .note {
+    margin-top: 4px;
+}
+
+.ReleasesDB-mainAlert {
+    margin-bottom: 14px;
+}
+
+.ReleasesDB-downloadRedirect {
+    margin-top: 8px;
+    padding: 0;
+}
+
+
+.ReleasesDB-mainContent {
+    border: 1px dashed #e0e0e0;
+    border-width: 1px 0;
+    margin-top: 14px;
+    padding: 18px;
+}
+
+.ReleasesDB-mainContent .link {
+    margin-top: 14px;
+}
+
+.ReleasesDB-mainContent .link1 {
+	margin-top: 0;
+}
+
+.ReleasesDB-mainSubContentContainer .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.ReleasesDB-mainSubContentContainer .avatar {
+	width: 68px;
+}
+
+.ReleasesDB-mainSubContentContainer .avatar,
+.ReleasesDB-mainPlaystoreMeta .meta {
+    height: 68px;
+}
+
+.ReleasesDB-mainPlaystoreMeta .meta {
+    margin-left: 68px;
+    padding: 0 0 0 8px;
+    padding: 0 0 0 0.500em;
+}
+
+.ReleasesDB-mainPlaystoreMeta .meta span {
+    padding: 2px 0;
+    padding: 0.154em 0;
+}
+
+.ReleasesDB-mainPlaystoreMeta .meta span:last-child {
+	border-width: 0;
+}
+
+/*PlaystoreVideo*/
+.ReleasesDB-mainPlaystoreVideo,
+.ReleasesDB-mainVideo {
+    padding-top: 55%;
+}
+
+.ReleasesDB-mainPlaystoreVideo iframe,
+.ReleasesDB-mainVideo iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/*PlaystoreScreenshots*/
+.ReleasesDB-mainPlaystoreScreenshot img {
+   /* height: 175px;
+    width: auto;*/
+}
+
+/*DownloadRedirect*/
+
+.ReleasesDB-mainContentMeta .time {
+    margin-top: 12px;
+}
+
+.ReleasesDB-downloadRedirect a,
+.ReleasesDB-mainContentMeta a {
+    text-decoration: underline;
+}
+
+.notice {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    margin: 8px;
+    color: #ffffff;
+}
+
+
+.notice p {
+    margin-bottom: 6px;
+}
+
+.notice p:last-child {
+    margin: 0;
+}
+
+#faq p {
+    font-size: 13px;
+    border-bottom: 1px dashed #c0c0c0;
+    padding: 8px;
+}
+
+#faq p:last-child {
+    border-bottom: 0;
+}
+
+.ReleasesDB-mainContentMeta .note p {
+    margin-top: 12px;
+}
+
+.ReleasesDB-mainContentMeta .note p:first-child {
+    margin-top: 0;
+}
+
+.ReleasesDB-mainContentMeta .note p,
+.ReleasesDB-mainContentMeta .note pre {
+    white-space: pre-line;
+}
+
+.note ul.id34 {
+    list-style: circle;
+    margin-top: 2px;
+}
+
+.note ul.id34 li {
+    list-style-position: inside;
+}
+
+.note ul.id34 > li {
+    border: none;
+    padding: 2px 8px;
+}
+
+.note ul.id344 > li {
+    border: 1px dotted #e0e0e0;
+    border-width: 1px 0 0;
+    padding: 4px 8px;
+}
+
+.note ul.id34 > li:last-child {
+    border-width: 1px 0;
+}
+
+.note ul.id34 li ul {
+    margin-left: 24px;
+    list-style: disc;
+}
+
+.note ul.id34 li ul li ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.note ul.id34 li ul li ul li {
+    margin-left: 20px;
+}

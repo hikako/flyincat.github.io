@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Open+Sans:400,400i,600,600i|Raleway:400,400i,500,500i,600,600i|Roboto:400,400i,500,500i');
+
+/* Root
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+body {
+	font: 100%/1.6 'Roboto', 'Open Sans', 'Lato', 'Raleway', Arial, sans-serif;
+}
+
+/* Font Family
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+.lato-normal,
+small.prefix[class*="3"] {
+	font-family: 'Lato', 'Roboto', 'Open Sans', 'Raleway', Arial, sans-serif;
+	font-weight: 400;
+}
+
+.lato-normal-italic {
+	font-family: 'Lato', 'Roboto', 'Open Sans', 'Raleway', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.lato-bold {
+	font-family: 'Lato', 'Roboto', 'Open Sans', 'Raleway', Arial, sans-serif;
+	font-weight: 700;
+}
+
+.lato-bold-italic {
+	font-family: 'Lato', 'Roboto', 'Open Sans', 'Raleway', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.opensans-normal {
+	font-family: 'Open Sans', 'Roboto', 'Lato', 'Raleway', Arial, sans-serif;
+	font-weight: 400;
+}
+
+.opensans-normal-italic {
+	font-family: 'Open Sans', 'Roboto', 'Lato', 'Raleway', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.opensans-bold {
+	font-family: 'Open Sans', 'Roboto', 'Lato', 'Raleway', Arial, sans-serif;
+	font-weight: 600;
+}
+
+.opensans-bold-italic {
+	font-family: 'Open Sans', 'Roboto', 'Lato', 'Raleway', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.raleway-normal {
+	font-family: 'Raleway', 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif;
+	font-weight: 400;
+}
+
+.raleway-normal-italic {
+	font-family: 'Raleway', 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.raleway-medium {
+	font-family: 'Raleway', 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif;
+	font-weight: 500;
+}
+
+.raleway-medium-italic {
+	font-family: 'Raleway', 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.raleway-bold,
+/*SectionHeader*/
+.section-header h2,
+/*SectionItem*/
+.section-itemMeta h3,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader h2 {
+	font-family: 'Raleway', 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif;
+	font-weight: 600;
+}
+
+.raleway-bold-italic {
+	font-family: 'Raleway', 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.roboto-normal,
+.ReleasesDB-mainContentMeta .note p,
+.ReleasesDB-mainContentMeta .note .p,
+.ReleasesDB-mainContentMeta .note pre {
+	font-family: 'Roboto', 'Open Sans', 'Lato', 'Raleway', Arial, sans-serif;
+	font-weight: 400;
+}
+
+i, em,
+.italic, .em,
+.roboto-normal-italic {
+	font-family: 'Roboto', 'Open Sans', 'Lato', 'Raleway', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+b, strong,
+.roboto-bold,
+.bold, .strong {
+	font-family: 'Roboto', 'Open Sans', 'Lato', 'Raleway', Arial, sans-serif;
+	font-weight: 500;
+}
+
+.roboto-bold-italic {
+	font-family: 'Roboto', 'Open Sans', 'Lato', 'Raleway', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 500;
+}
+
+
+/* Font Size
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+h1,
+.h1,
+/*SectionHeader*/
+.section-header i:before {
+	font-size: 32px;
+	font-size: 2.000em;
+}
+
+h2,
+.h2,
+/*NavigationSide*/
+#navigation-side nav ul li i:before,
+/*NavigationHeader*/
+#navigation-header nav ul li i:before,
+#navigation-header #header-toggle i:before {
+	font-size: 24px;
+	font-size: 1.500em;
+}
+
+h3,
+.h3 {
+	font-size: 20px;
+	font-size: 1.250em;
+}
+
+h4,
+.fontsizeNormal {
+	font-size: 16px;
+	font-size: 1.000em;
+}
+
+h5,
+.fontsizeMediumNormal,
+/*NavigationHeader*/
+#navigation-header #header-toggle div,
+.ReleasesDB-mainAlert .alert {
+	font-size: 15px;
+	font-size: 0.938em;
+}
+
+h6,
+.fontSizeMediumSmall,
+/*NavigationHeader*/
+#navigation-header nav ul li div,
+/*SectionItem*/
+.section-itemMetaWrapper small.name {
+	font-size: 14px;
+	font-size: 0.875em;
+}
+
+small,
+.fontsizeSmall,
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta .meta span,
+.ReleasesDB-downloadRedirect a,
+.ReleasesDB-mainContentMeta .note p,
+.ReleasesDB-mainContentMeta .note .p,
+.ReleasesDB-mainContentMeta .note pre {
+	font-size: 13px;
+	font-size: 0.813em;
+}
+
+.fontsizeSmaller,
+/*Prefix*/
+small.prefix,
+.notice p {
+	font-size: 12px;
+	font-size: 0.750em;
+}
+
+.ReleasesDB-mainPlaystoreScreenshot {
+    font-size: 0;
+}
+
+/* Line Height
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/*NavigationSide*/
+#navigation-side nav ul li a,
+#navigation-side nav ul li i:before,
+#navigation-side nav ul li div,
+/*NavigationHeader*/
+#navigation-header nav ul li a,
+#navigation-header nav ul li i:before,
+#navigation-header nav ul li div,
+#navigation-header #header-toggle,
+#navigation-header #header-toggle i:before,
+/*SectionHeader*/
+.section-header i:before,
+.section-header h2 {
+    line-height: 32px;
+}
+
+/*ReleasesDBItem*/
+.ReleasesDB-itemMeta h3,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader h2,
+.ReleasesDB-downloadRedirect a {
+    line-height: 24px;
+}
+
+.ReleasesDB-mainAlert .alert {
+    line-height: 20px;
+}
+
+/*SectionItem*/
+.section-itemMetaWrapper,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader small,
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta .meta span,
+.ReleasesDB-modInfo small,
+.ReleasesDB-mainContent .link strong,
+.ReleasesDB-mainContent .link small,
+.ReleasesDB-mainContentMeta .note p,
+.ReleasesDB-mainContentMeta .note .p,
+.ReleasesDB-mainContentMeta .note pre {
+    line-height: 18px;
+}
+
+small.prefix,
+.notice p {
+    line-height: 16px;
+}

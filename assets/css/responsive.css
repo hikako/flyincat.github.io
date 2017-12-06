@@ -1,0 +1,15 @@
+@media (max-width: 640px) {
+	#navigation-header nav, .section-itemMeta h3 .region, .section-itemMeta h3 .version,
+	.ReleasesDB .ReleasesDB-pagination ul li.pagination-previous, .ReleasesDB .ReleasesDB-pagination ul li.pagination-next {
+		display: none;
+	}
+}
+
+@media (min-width: 641px) {
+	#navigation-header #header-toggle, .section-itemMetaWrapper small.region, .section-itemMetaWrapper small.version {
+		display: none;
+	}
+}
+
+@media (min-width: 847px) {
+}

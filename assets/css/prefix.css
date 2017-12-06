@@ -1,0 +1,623 @@
+/*/-/-/Colors/-/-/*/
+
+body,
+.ReleasesDB-mainAlert .alert {
+	color: #333;
+}
+
+.white,
+small.prefix {
+	color: #fff;
+}
+
+.black,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li a:hover,
+.ReleasesDB .ReleasesDB-pagination ul li a:active,
+.ReleasesDB .ReleasesDB-pagination ul li a:focus {
+	color: #000;
+}
+
+.semiblack,
+/*NavigationSide*/
+#navigation-side nav ul li a,
+/*NavigationHeader*/
+#navigation-header nav ul li a,
+#navigation-header #header-toggle {
+	color: #666;
+}
+
+.gray,
+/*sectionMeta*/
+.section-itemMetaWrapper small.isQooapp, 
+.section-itemMetaWrapper small.name, 
+.section-itemMetaWrapper small.time, 
+.section-itemMetaWrapper small.region,
+.section-itemMetaWrapper small.version,
+.section-itemMetaWrapper small.summary,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li,
+.ReleasesDB .ReleasesDB-pagination ul li a,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader small.name {
+	color: #999;
+}
+
+.red, a,
+/*NavigationSide*/
+#navigation-side nav ul li a:hover,
+#navigation-side nav ul li a:focus,
+#navigation-side nav ul li a:active,
+#navigation-side nav ul li a.active,
+/*NavigationHeader*/
+#navigation-header nav ul li a:hover,
+#navigation-header nav ul li a:focus,
+#navigation-header nav ul li a:active,
+#navigation-header nav ul li a.active,
+#navigation-header #header-toggle:hover,
+#navigation-header #header-toggle:focus,
+#navigation-header #header-toggle:active ,
+/*SectionItem*/
+.section-itemMeta h3 {
+	color: #F44336;
+}
+
+.green, a:hover, a:active, a:focus,
+/*SectionHeader*/
+.section-header i:before,
+.section-header h2,
+/*ReleasesDBItem*/
+.ReleasesDB-item:hover h3,
+.ReleasesDB-item:active h3,
+.ReleasesDB-item:focus h3 {
+	color: #4a4;
+}
+
+/*/-/-/Background Color/-/-/*/
+.ReleasesDB-item.pinned-item {
+    background-color: rgba(255, 255, 0, 0.075);
+}
+
+small.prefix {
+    background-color: #F44336;
+}
+
+small.prefix.isNew,
+small.prefix.isUptodate,
+small.prefix.isUpdated,
+small.prefix.isFixed,
+small.prefix.isImproved,
+small.prefix[class*="Open for"] {
+	background-color: #4a4;
+}
+
+small.prefix.isPinned {
+	background-color: #F44336;
+}
+
+small.prefix.isDiscontinued,
+small.prefix.isPrivate,
+small.prefix.isOutdated {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.ReleasesDB .ReleasesDB-pagination ul {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.ReleasesDB .ReleasesDB-pagination ul li a,
+.ReleasesDB-mainAlert,
+.ReleasesDB-mainContentMeta .note {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.ReleasesDB .ReleasesDB-pagination ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/*/-/-/Position/-/-/*/
+.posRelative,
+#welcomehell, .component-root,
+/*Header*/
+#header, #branding,
+/*Main*/
+#main,
+/*SectionItem*/
+.section-item,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader,
+/*PlaystoreMeta*/
+.ReleasesDB-mainSubContentContainer .avatar,
+/*PlaystoreVideo*/
+.ReleasesDB-mainPlaystoreVideo,
+.ReleasesDB-mainVideo {
+	position: relative;
+}
+
+.posAbsolute,
+/*NavigationHeader*/
+#navigation-header,
+/*SectionItem*/
+.section-itemLink,
+/*PlaystoreVideo*/
+.ReleasesDB-mainPlaystoreVideo iframe,
+.ReleasesDB-mainVideo iframe {
+	position: absolute;
+}
+
+.top,
+/*SectionItem*/
+.section-itemLink,
+/*PlaystoreVideo*/
+.ReleasesDB-mainPlaystoreVideo iframe,
+.ReleasesDB-mainVideo iframe {
+	top: 0px;
+}
+
+.left,
+/*NavigationHeader*/
+#navigation-header,
+/*SectionItem*/
+.section-itemLink,
+/*PlaystoreVideo*/
+.ReleasesDB-mainPlaystoreVideo iframe {
+	left: 0px;
+}
+
+.right,
+/*NavigationHeader*/
+#navigation-header,
+/*SectionItem*/
+.section-itemLink,
+/*PlaystoreVideo*/
+.ReleasesDB-mainPlaystoreVideo iframe,
+.ReleasesDB-mainVideo iframe {
+	right: 0px;
+}
+
+.bottom,
+/*NavigationHeader*/
+#navigation-header,
+/*SectionItem*/
+.section-itemLink,
+/*PlaystoreVideo*/
+.ReleasesDB-mainPlaystoreVideo iframe,
+.ReleasesDB-mainVideo iframe {
+	bottom: 0px;
+}
+
+/*/-/-/Float/-/-/*/
+.floatLeft,
+/*NavigationHeader*/
+#navigation-header nav ul li,
+/*SectionItemIcon*/
+.section-itemIcon,
+/*SectionItem*/
+.section-itemLink,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-previous,
+/*PlaystoreMeta*/
+.ReleasesDB-mainSubContentContainer .avatar {
+	float: left;
+}
+
+.floatRight,
+/*SectionItem*/
+.section-itemLink,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-next {
+	float: right;
+}
+
+/*/-/-/Z-index/-/-/*/
+
+.zIndex1,
+/*NavigationHeader*/
+#navigation-header,
+/*SectionItem*/
+.section-itemLink {
+	z-index: 1;
+}
+
+/*/-/-/Display/-/-/*/
+.disInitial,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-previous,
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-next {
+	display: initial;
+}
+
+.disBlock,
+/*NavigationSide*/
+#navigation-side nav ul li a,
+#navigation-side nav ul li i:before,
+/*NavigationHeader*/
+#navigation-header nav ul li a,
+#navigation-header nav ul li i:before,
+#navigation-header #header-toggle i:before,
+/*SectionHeader*/
+.section-header i:before,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li div,
+.ReleasesDB .ReleasesDB-pagination ul li span,
+.ReleasesDB .ReleasesDB-pagination ul li a,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader .ReleasesDB-HeaderIcon,
+.ReleasesDB-pageHeader small.name {
+	display: block;
+}
+
+.disInline,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader h2 span {
+	display: inline;
+}
+
+.disInlineBlock,
+/*NavigationSide*/
+#navigation-side nav ul li i,
+#navigation-side nav ul li div,
+/*NavigationHeader*/
+#navigation-header nav ul li i,
+#navigation-header nav ul li div,
+#navigation-header #header-toggle i,
+#navigation-header #header-toggle div,
+/*SectionHeader*/
+.section-header i,
+.section-header h2,
+/*SectionItem*/
+.section-itemMetaWrapper small,
+.ReleasesDB-itemMeta h3 span,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li,
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-previous span,
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-next span,
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-previous:before,
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-next:before,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader small.prefix,
+.ReleasesDB-mainContentMeta div a {
+	display: inline-block;
+}
+
+.hidden,
+small.prefix.other {
+	display: none!important;
+}
+
+small.prefix.other.isPrivate,
+small.prefix.other.isDiscontinued {
+	display: inline-block!important;
+}
+
+/*/-/-/Opacity/-/-/*/
+.opacity025,
+/*ReleasesDBItem*/
+.ReleasesDB-item[mod-privacy*="Private"] .section-itemIcon,
+.ReleasesDB-item[mod-privacy*="Private"] .section-itemMeta,
+.ReleasesDB-item[mod-privacy*="Discontinued"] .section-itemIcon,
+.ReleasesDB-item[mod-privacy*="Discontinued"] .section-itemMeta,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.disabled,
+.ReleasesDB .ReleasesDB-pagination ul li.current {
+	opacity: 0.25;
+}
+
+/*/-/-/Pointer Events/-/-/*/
+.pointerEventsNone,
+/*ReleasesDBItem*/
+.ReleasesDB-item[mod-privacy*="Private"],
+.ReleasesDB-item[mod-privacy*="Discontinued"],
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.disabled,
+.ReleasesDB .ReleasesDB-pagination ul li.current {
+	pointer-events: none;
+}
+
+/*/-/-/User Select/-/-/*/
+.userSelectNone,
+.ReleasesDB-item[mod-privacy*="Private"],
+.ReleasesDB-item[mod-privacy*="Discontinued"],
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.disabled,
+.ReleasesDB .ReleasesDB-pagination ul li.current {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+/*/-/-/Visibility/-/-/*/
+.visibilityHidden {
+	visibility: hidden;
+}
+
+/*/-/-/TextOverflow/-/-/*/
+/*SectionItem*/
+.section-itemMetaWrapper,
+.section-itemMeta h3,
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta .meta span,
+/*PlaystoreScreenshots*/
+.ReleasesDB-mainPlaystoreScreenshot {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*/-/-/Overflow/-/-/*/
+
+.overflowHidden,
+.circleImg,
+/*SectionItem*/
+.section-item,
+.section-itemMeta,
+.section-itemMetaWrapper,
+/*ReleasesDBItem*/
+.ReleasesDB-itemIcon,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-HeaderIcon,
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta .meta,
+/*PlaystoreMeta*/
+.ReleasesDB-mainSubContentContainer .avatar {
+	overflow: hidden;
+}
+
+.overflowAuto,
+/*PlaystoreScreenshot*/
+.ReleasesDB-mainPlaystoreScreenshot {
+	overflow: auto;
+}
+
+/*/-/-/Vertical Align/-/-/*/
+
+.verticalAlignTop,
+/*NavigationSide*/
+#navigation-side nav ul li i,
+#navigation-side nav ul li div,
+/*NavigationHeader*/
+#navigation-header nav ul li i,
+#navigation-header nav ul li div,
+#navigation-header #header-toggle i,
+#navigation-header #header-toggle div,
+/*SectionHeader*/
+.section-header i,
+.section-header h2,
+/*SectionItem*/
+.section-itemMetaWrapper small,
+.ReleasesDB-itemMeta h3 span,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader small.prefix,
+.ReleasesDB-pageHeader h2 span {
+	vertical-align: top;
+}
+
+/*/-/-/Border/-/-/*/
+.borderSolid,
+/*NavigationSide*/
+#navigation-side nav ul li a,
+/*SectionHeader*/
+.section-header,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li a,
+/*SubContentContainer*/
+.ReleasesDB-mainSubContentContainer,
+/*PlaystoreScreenshots*/
+.ReleasesDB-mainPlaystoreScreenshot {
+	border-style: solid;
+}
+
+.borderDashed,
+/*ReleasesDBItem*/
+.ReleasesDB-itemMeta h3,
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta .meta span,
+.ReleasesDB-mainContentMeta .note,
+.ReleasesDB-mainAlert {
+	border-style: dashed;
+}
+
+.borderDotted,
+/*ReleasesDBItem*/
+.ReleasesDB-item {
+	border-style: dotted;
+}
+
+.borderGray,
+/*NavigationSide*/
+#navigation-side nav ul li a,
+/*ReleasesDBItem*/
+.ReleasesDB-item,
+.ReleasesDB-itemMeta h3,
+/*SectionHeader*/
+.section-header,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li a,
+/*SubContentContainer*/
+.ReleasesDB-mainSubContentContainer,
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta .meta span,
+/*PlaystoreScreenshots*/
+.ReleasesDB-mainPlaystoreScreenshot {
+	border-color: #e0e0e0;
+}
+
+.border,
+/*SubContentContainer*/
+.ReleasesDB-mainSubContentContainer,
+/*PlaystoreScreenshots*/
+.ReleasesDB-mainPlaystoreScreenshot {
+	border-width: 1px;
+}
+
+.borderVertical,
+/*ReleasesDBItem*/
+.ReleasesDB-item,
+.ReleasesDB-itemMeta h3,
+/*SectionHeader*/
+.section-header {
+    border-width: 1px 0;
+}
+
+.borderHorizontal,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li a {
+	border-width: 0 1px;
+}
+
+.borderTop {
+	border-width: 1px 0 0;
+
+}
+
+.borderLeft,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-next a {
+	border-width: 0 0 0 1px;
+}
+
+.borderRight,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li.pagination-previous a {
+	border-width: 0 1px 0 0;
+}
+
+.borderBottom,
+/*NavigationSide*/
+#navigation-side nav ul li a,
+/*PlaystoreMeta*/
+.ReleasesDB-mainPlaystoreMeta .meta span {
+	border-width: 0 0 1px;
+}
+
+/*/-/-/Border Radius/-/-/*/
+.circleImg,
+.ReleasesDB-itemIcon,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-HeaderIcon,
+/*PlaystoreMeta*/
+.ReleasesDB-mainSubContentContainer .avatar {
+    border-radius: 50%;
+}
+
+/*/-/-/Margin/-/-/*/
+.marginAuto,
+#welcomehell,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-HeaderIcon,
+/*ReleasesDBPageMain*/
+.ReleasesDB-pageMain {
+	margin: auto;
+}
+
+/*/-/-/Cursor/-/-/*/
+.pointer,
+#navigation-header #header-toggle {
+	cursor: pointer;
+}
+
+/*/-/-/Text Align/-/-/*/
+.textAlignLeft {
+	text-align: left!important;
+}
+
+.textAlignCenter,
+/*ReleasesDBPageHeader*/
+.ReleasesDB-pageHeader,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul {
+	text-align: center;
+}
+
+/*/-/-/Clearfix/-/-/*/
+.cf:before, .cf:after,
+/*NavigationHeader*/
+#navigation-header nav ul:before,
+#navigation-header nav ul:after,
+#navigation-header nav ul li a:before,
+#navigation-header nav ul li a:after,
+#navigation-header #header-toggle:before,
+#navigation-header #header-toggle:after,
+/*SectionMain*/
+.section-main:before,
+.section-main:after,
+/*SectionItem*/
+.section-item:before,
+.section-item:after,
+.section-itemMeta:before,
+.section-itemMeta:after,
+.section-itemMetaWrapper:before,
+.section-itemMetaWrapper:after,
+/*ReleasesDBMain*/
+.ReleasesDB-main:before,
+.ReleasesDB-main:after,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul:before,
+.ReleasesDB .ReleasesDB-pagination ul:after,
+/*ReleasesDB-pageHeader*/
+.ReleasesDB-pageHeader:before,
+.ReleasesDB-pageHeader:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after,
+/*NavigationHeader*/
+#navigation-header nav ul:after,
+#navigation-header nav ul li a:after,
+#navigation-header #header-toggle:after,
+/*SectionMain*/
+.section-main:after,
+/*SectionItem*/
+.section-item:after,
+.section-itemMeta:after,
+.section-itemMeta:after,
+/*ReleasesDBMain*/
+.ReleasesDB-main:after,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul:after,
+/*ReleasesDB-pageHeader*/
+.ReleasesDB-pageHeader:after {
+    clear: both;
+}
+
+.cf,
+/*NavigationHeader*/
+#navigation-header nav ul,
+#navigation-header nav ul li a,
+#navigation-header #header-toggle,
+/*SectionMain*/
+.section-main,
+/*SectionItem*/
+.section-item,
+.section-itemMeta,
+.section-itemMeta,
+/*ReleasesDBMain*/
+.ReleasesDB-main,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul,
+/*ReleasesDB-pageHeader*/
+.ReleasesDB-pageHeader {
+    *zoom: 1;
+}
+
+/*/-/-/Animation/-/-/*/
+.animation,
+/*NavigationSide*/
+#navigation-side nav ul li a,
+/*NavigationHeader*/
+#navigation-header nav ul li a,
+#navigation-header #header-toggle,
+/*SectionItem*/
+.section-itemMeta h3,
+/*ReleasesDBFooter*/
+.ReleasesDB .ReleasesDB-pagination ul li a {
+    transition: all .25s linear;
+    -o-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -webkit-transition: all .25s linear;
+}
